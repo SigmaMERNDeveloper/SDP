@@ -1,0 +1,51 @@
+.main-people {
+  width: 100%;
+  height: 70px;
+  background-color: #bfc8de;
+}
+
+.people-navbar {
+  display: flex;
+  padding-top: 20px;
+}
+
+.people-navbar .back-icon > a {
+  text-decoration: none;
+  padding-right: 20px;
+  color: black;
+}
+
+.main-people .filter-page {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.main-people .filter-page > button > a {
+  text-decoration: none;
+  color: black;
+}
+
+.searchbar > input {
+  height: 30px;
+  width: 300px;
+  font-size: 16px;
+  float: right;
+  border-style: none;
+  border-bottom: 1px solid black;
+}
+
+.people-page .people-table {
+  margin-top: 30px;
+}
+
+.table tr {
+  padding: 10px 5px;
+}
+
+.table th {
+  padding: 0px 5px;
+}
+
+.table tr td {
+  padding: 0px 5px;
+}

@@ -1,0 +1,33 @@
+.main-subdivision {
+  width: 100%;
+  height: 70px;
+  background-color: #bfc8de;
+}
+
+.subdivision-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.subdivision-navbar-header > button {
+  display: flex;
+  height: 40px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.subdivision-navbar .back-icon > a {
+  text-decoration: none;
+  color: black;
+  padding-right: 20px;
+}
+
+.subdivision-navbar .leftSide {
+  display: flex;
+  text-align: center;
+}
+
+.subdivision-page .subdivision-table {
+  margin-top: 70px;
+}

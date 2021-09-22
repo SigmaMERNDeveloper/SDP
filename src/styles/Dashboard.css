@@ -1,0 +1,75 @@
+.mainDash {
+  display: flex;
+}
+
+.mainDash .sideNav {
+  background-color: #bfc8de;
+  height: fit-content;
+}
+
+.sideNav .height-setter {
+  height: 680px;
+}
+
+.sideNav .info-box {
+  display: flex;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.sideNav:hover .info-name {
+  display: block;
+}
+
+.sideNav:hover .info-box {
+  width: 200px;
+}
+
+.sideNav .info-name {
+  display: none;
+  padding-left: 20px;
+}
+
+.dashboard {
+  width: 100%;
+  height: 70px;
+  background-color: #bfc8de;
+}
+
+.dashboard-search {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.dashboard-search > button > a {
+  text-decoration: none;
+  color: black;
+}
+
+.info-box .info-name > p > a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dashboard .table {
+  margin-top: 30px;
+}
+
+.dyn-violation {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dyn-violation > p {
+  float: left;
+  border-radius: 8px;
+  padding: 6px;
+  background-color: grey;
+  color: white;
+  margin-right: 10px;
+}

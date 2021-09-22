@@ -1,0 +1,27 @@
+.main-add-subdiv {
+  width: 100%;
+  height: 70px;
+  background-color: #bfc8de;
+}
+
+.add-subdiv-leftSide {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.add-subdiv-leftSide .backicon > a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-add-subdiv .add-subdiv-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.add-subdiv-form > button {
+  margin-top: 30px;
+}
