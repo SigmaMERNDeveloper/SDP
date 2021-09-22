@@ -22,4 +22,3 @@ ReactDOM.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
-// 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 -- git token
